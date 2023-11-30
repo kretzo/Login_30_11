@@ -1,0 +1,138 @@
+body{
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: #ebbc00;
+    font-family: 'Georgia';
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 0%;
+}
+
+header .naveg{
+    width: fit-content;
+    height: 100%;
+    padding-bottom: 0.8%;
+    margin-left: 0.8%;
+    display: flex;
+    align-items: center;
+}
+
+header .titulo{
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boasvindas{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Georgia';
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.containerindex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.containerindex .botao1{
+    background-color: #676BB5;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Verdana';
+    color: black;
+    border: solid #676BB5;
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+    margin: 0% 5% 0% 5%;
+}
+
+.botao1:hover{
+    background-color: white;
+    color: #676BB5;
+    border: solid #676BB5;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+a:link{ 
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #676BB5;
+}
+
+.formulario{
+    height: fit-content;
+    width: fit-content;
+    padding: 1% 10% 2% 10%;
+    margin: 200px auto 0px auto;
+    background-color: #3c7ba0;
+    border-radius: 20px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campos{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 0px;
+    font-family: 'Verdana';
+}
+
+.botao2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0.8px solid #ebbc00;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Verdana';
+    font-size: medium;
+    font-weight: 600;
+    background-color: #ebbc00;
+}
+
+.botao2:hover{
+    font-weight: 800;
+    border: 0.8px solid white;
+    color: #ebbc00;
+    background-color: white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #606175;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
