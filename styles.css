@@ -14,7 +14,7 @@ header{
     top: 0%;
 }
 
-header .naveg{
+header .nav{
     width: fit-content;
     height: 100%;
     padding-bottom: 0.8%;
@@ -86,9 +86,10 @@ a:hover{
     width: fit-content;
     padding: 1% 10% 2% 10%;
     margin: 200px auto 0px auto;
+    background-color: aliceblue;
     background-color: #3c7ba0;
     border-radius: 20px;
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -132,7 +133,34 @@ a:hover{
 footer{
     background-color: #606175;
     width: 100%;
-    height: 10%;
-    position: fixed;
+    height: 15vh;
     bottom: 0;
+    font-family: 'Verdana';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerUsuario{
+    width: fit-content;
+    height: 60vh;
+    margin-bottom: 10vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.containerUsuario .fotoUser{
+    margin: 2vh;
+}
+
+.containerUsuario .dadosUsuario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Verdana';
+    margin: 2vh;
 }
