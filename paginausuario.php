@@ -18,11 +18,20 @@
     <title>Informações do Usuário</title>
 </head>
 <body>
-    <header>
-            <div class="titulo">
-                <h1>Título</h1>
-            </div>
-        </header>
+<header>
+        <div class="titulo">
+            <h1>Cabeçalho</h1>
+        </div>
+        <div class="nav">
+            <p><a href="cadastro.html">Cadastro</a></p>
+        </div>
+        <div class="nav">
+        <p><a href="login.html">Login</a></p>
+        </div>
+        <div class="nav">
+            <p><a href="paginausuario.php">Usuário</a></p>
+        </div>
+    </header>
 
         <div class="boasvindas">
             <h2>Bem-vindo, <?php echo $_SESSION['Nome']?>.</h2>

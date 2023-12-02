@@ -25,7 +25,6 @@
                 else{
                     die("Falha ao cadastrar usuário");
                 }
-                $conexao = close();
             }
         }
     }

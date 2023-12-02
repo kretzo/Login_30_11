@@ -36,7 +36,6 @@
                 else{
                     die("Usuário não encontrado.");
                 }
-                $conexao -> close();
             }
         }
     }
